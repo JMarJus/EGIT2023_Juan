@@ -11,4 +11,7 @@ public class Persona {
     edad += 1;
     System.out.println(edad);
   }
+  public void datosPersona() {
+    System.out.println(nombre + " " + apellidos + ", " + edad);
+  }
 }
